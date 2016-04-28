@@ -59,6 +59,30 @@ header.carousel .fill {
     background-size: cover;
 }
 
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 980px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}
 
 
 /* Custom page footer */
@@ -66,4 +90,13 @@ header.carousel .fill {
   padding-top: 19px;
   color: #777;
   border-top: 1px solid #e5e5e5;
+  margin: 50px 0;
 }
+
+.boru-section-break {
+  background: #4a71c0;
+  min-height: 300px;
+  padding: 50px 0;
+
+}
+
