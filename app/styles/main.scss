@@ -106,7 +106,7 @@ header.carousel .fill {
 
 .collaboration{
   .collaboration-logos{
-    align-items: baseline;
+    align-items: center;
     justify-content: center;
   }
 
@@ -114,5 +114,13 @@ header.carousel .fill {
       align-items: baseline;
       justify-content: center;
   }
+}
+
+.fencing-ireland-logo, .pentathlon-ireland-logo{
+  height:300px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
