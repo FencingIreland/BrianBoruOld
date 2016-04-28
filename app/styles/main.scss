@@ -100,3 +100,19 @@ header.carousel .fill {
 
 }
 
+.flex-row {
+  display: flex;   
+}
+
+.collaboration{
+  .collaboration-logos{
+    align-items: baseline;
+    justify-content: center;
+  }
+
+  .collaboration-header{
+      align-items: baseline;
+      justify-content: center;
+  }
+}
+
