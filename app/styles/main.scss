@@ -170,6 +170,39 @@ header.carousel .fill {
 }
 }
 
+.our-club{
+  padding: 10px 0;
+  margin-bottom:25px;
+
+   .our-club-header{
+    display:flex;
+    justify-content:center;
+    padding-bottom:20px;
+  } 
+
+   .our-club-details{
+    display:flex;    
+    justify-content:space-between;
+
+    .training, .map{
+      width:100%;     
+    }
+
+    .training{
+      padding-right: 15px;
+
+      .information{
+        margin-bottom:16px;
+      }
+    }
+
+    .map{
+      padding-left: 15px;
+    }
+  }
+
+}
+
 
 
 
