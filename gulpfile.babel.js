@@ -74,7 +74,8 @@ gulp.task('images', () => {
 
 gulp.task('icons', function() { 
     return gulp.src('./bower_components/font-awesome/fonts/**.*') 
-        .pipe(gulp.dest('./dist/fonts')); 
+        .pipe(gulp.dest('./app/icons'));  
+        .pipe(gulp.dest('./dist/icons'));   
 });
 
 gulp.task('fonts', () => {
