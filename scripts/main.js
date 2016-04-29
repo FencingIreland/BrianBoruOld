@@ -1,0 +1,1 @@
+"use strict";$(window).scroll(function(){$(document).scrollTop()>10?$("nav").addClass("shrink"):$("nav").removeClass("shrink")});
